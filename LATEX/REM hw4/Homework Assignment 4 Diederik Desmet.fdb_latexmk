@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1777822376.36623 "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" "Homework Assignment 4 Diederik Desmet.pdf" "Homework Assignment 4 Diederik Desmet" 1777822377.36284 0
+["pdflatex"] 1777830703.10541 "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" "Homework Assignment 4 Diederik Desmet.pdf" "Homework Assignment 4 Diederik Desmet" 1777830702.71367 0
   "/etc/texmf/web2c/texmf.cnf" 1772920948.20854 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" 1777822376.27756 7183 92d6b5b8078f5b72b13dd75c9d13ba51 ""
+  "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" 1777830702.56956 7576 5f0c5e3b028b182d8d170ad31091cb2b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -101,11 +101,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1777635263.82346 5315274 eca45f79c283d0da8e1220b205549efb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1777635281 7424620 4bfd873debaa928ad2bd80b691ec7952 ""
-  "Homework Assignment 4 Diederik Desmet.aux" 1777822377.25157 541 f4af500d10bc5b3cfc80dfefd3485322 "pdflatex"
-  "Homework Assignment 4 Diederik Desmet.out" 1777822376.98029 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Homework Assignment 4 Diederik Desmet.tex" 1777822376.27756 7183 92d6b5b8078f5b72b13dd75c9d13ba51 ""
+  "Homework Assignment 4 Diederik Desmet.aux" 1777830702.60971 702 60b0aa1da431bef95d966332d6dbe54f "pdflatex"
+  "Homework Assignment 4 Diederik Desmet.out" 1777830702.29204 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Homework Assignment 4 Diederik Desmet.tex" 1777830702.56956 7576 5f0c5e3b028b182d8d170ad31091cb2b ""
   "schakeling.png" 1777816359.69924 8970 ac0bf7e6f0a1d1f2a0f352cf5799a1c5 ""
   "schakeling2.png" 1777820611.07428 13331 4f3eb67adb2cb48379362ecd8461e917 ""
+  "sphear.png" 1777830563.69327 125497 2798803ad87f888e7c99be1b9ea549ee ""
   (generated)
   "Homework Assignment 4 Diederik Desmet.aux"
   "Homework Assignment 4 Diederik Desmet.log"
