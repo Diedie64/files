@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1777669566.28731 "/home/diederik/LATEX/sammenvating_sterrenstelsels/sammenvating.tex" "sammenvating.pdf" "sammenvating" 1777669568.41522 0
+["pdflatex"] 1777916854.80995 "/home/diederik/LATEX/sammenvating_sterrenstelsels/sammenvating.tex" "sammenvating.pdf" "sammenvating" 1777916857.05367 0
   "/etc/texmf/web2c/texmf.cnf" 1772920948.20854 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/diederik/LATEX/sammenvating_sterrenstelsels/sammenvating.tex" 1777669565.77964 78721 c45c9c2e33e210b3e3916fd0efa71462 ""
+  "/home/diederik/LATEX/sammenvating_sterrenstelsels/sammenvating.tex" 1777916853.75683 85509 5ef84a337d977185d70403a9367130b5 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/iwona/rm-iwona-sc.enc" 1276043435 2387 0973feb615a096fe23fa9f08bea7fb72 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc" 1276043435 1962 cace5a3042b67248932d50e41975d81a ""
@@ -173,9 +173,9 @@
   "foto'sH2/hubble twee.png" 1777636285.6095 622718 f7fa732a5ab30e1cdc5709e44b953673 ""
   "foto'sH2/onderverdeling.png" 1777636285.2267 380438 c14ad0c2750e5995c383ea3668409686 ""
   "foto'sH2/pulti-object spectroscopie.png" 1777636285.1035 207825 d666c3dee38429a20c52343a7b5fdbac ""
-  "sammenvating.aux" 1777669568.21571 2409 7968c5e8aea514511fa720c7ed87e8a8 "pdflatex"
-  "sammenvating.out" 1777669567.39969 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sammenvating.tex" 1777669565.77964 78721 c45c9c2e33e210b3e3916fd0efa71462 ""
+  "sammenvating.aux" 1777916856.83654 2463 9eec9f1fa9d05656c75446093a9492b4 "pdflatex"
+  "sammenvating.out" 1777916855.9318 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sammenvating.tex" 1777916853.75683 85509 5ef84a337d977185d70403a9367130b5 ""
   (generated)
   "sammenvating.aux"
   "sammenvating.log"
