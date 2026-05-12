@@ -188,19 +188,19 @@ For the negative plate, we have that $\hat{\mathbf{n}}=-\hat{\mathbf{x}}$, thus 
 because we are working with an diamagnetic sphere, we can expect that the magnetization of the sphere will be in the opposite direction of the external magnetic field. this can also be shown mathematically as folows.
 from exercise 6.1 we find that the induced magnetic field inside the sphere $\mathbf{B}_{in}$ from the magnetization is given by:
 \[
-\mathbf{B}_{in} = \frac{3}{2}\epsilon_0 \mathbf{M}
+\mathbf{B}_{induced} = \frac{3}{2}\epsilon_0 \mathbf{M}
 \]
-so that the totral magnetic field inside the sphere is given by:
+so that the total magnetic field inside the sphere is given by:
 \[
-\mathbf{B} = \mathbf{B}_0 + \mathbf{B}_{in} = B_0\hat{\mathbf{z}} + \frac{3}{2}\epsilon_0 \mathbf{M}
+\mathbf{B}_{tot} = \mathbf{B}_0 + \mathbf{B}_{induced} = B_0\hat{\mathbf{z}} + \frac{3}{2}\epsilon_0 \mathbf{M}
 \]
 we also have that the total magnetic field inside the sphere is given by:
 \[
-\mathbf{B} = \mu_0(\mathbf{H}+\mathbf{M})
+\mathbf{B}_{tot} = \mu_0(\mathbf{H}_{in}+\mathbf{M})
 \]
-and that the magnitization is related to the H-field via the relation:
+and that the magnetization is related to the H-field via the relation:
 \[
-\mathbf{M} = \chi_m \mathbf{H}
+\mathbf{M} = \chi_m \mathbf{H}_{in}
 \]
 combining these three equations we find that:
 \[
@@ -210,11 +210,24 @@ And because $\chi_m$ is negative for a diamagnetic material, we find that the ma
 
 \[
 \boxed{
-\mathbf{B} = \frac{3-3|\chi_m|}{3-|\chi_m|}B_0\hat{\mathbf{z}}
+\mathbf{B}_{in} = \frac{3-3|\chi_m|}{3-|\chi_m|}B_0\hat{\mathbf{z}}
+}
+\]
+For the magnetic field outside the sphere, we can use the fact that the magnetization of the sphere is equivalent to a magnetic dipole moment $\mathbf{m}$ located at the center of the sphere, with $\mathbf{m} = \frac{4}{3}\pi R^3 \mathbf{M}$ where $R$ is the radius of the sphere. The magnetic field outside the sphere can then be calculated using the formula for the magnetic field of a dipole:
+\begin{align*}
+\mathbf{B}_{dip} &= \frac{\mu_0}{4\pi r^3}\left(2\cos\theta\hat{\mathbf{r}} + \sin\theta\hat{\mathbf{\theta}}\right)\cdot \mathbf{m}\\
+&= \frac{\mu_0}{4\pi r^3}\left(2\cos\theta\hat{\mathbf{r}} + \sin\theta\hat{\mathbf{\theta}}\right)\cdot \frac{4}{3}\pi R^3 \mathbf{M}\\
+&= \frac{\mu_0 R^3}{3 r^3}\left(2\cos\theta\hat{\mathbf{r}} + \sin\theta\hat{\mathbf{\theta}}\right)\cdot \mathbf{M}
+\end{align*}
+
+and we thus find that the total magnetic field outside the sphere is given by:
+\[
+\boxed{
+\mathbf{B}_{out} = \mathbf{B}_0 + \mathbf{B}_{dip} = B_0\hat{\mathbf{z}} + \frac{\mu_0 R^3}{3 r^3}\left(2\cos\theta\hat{\mathbf{r}} + \sin\theta\hat{\mathbf{\theta}}\right)\cdot \mathbf{M}
 }
 \]
 using the urlier relations we can calculate the H-field inside and outside the sphere respectively as:
-\[\boxed{\mathbf{H}_{in} = \frac{3}{3-|\chi_m|}\frac{B_0}{\mu_0}\hat{\mathbf{z}}} \quad \boxed{\mathbf{H}_{out} = \frac{B_0}{\mu_0}\hat{\mathbf{z}}}
+\[\boxed{\mathbf{H}_{in} = \frac{3}{3-|\chi_m|}\frac{B_0}{\mu_0}\hat{\mathbf{z}}} \quad \boxed{\mathbf{H}_{out} = \frac{B_0}{\mu_0}\hat{\mathbf{z}} + \frac{R^3}{3 r^3}\left(2\cos\theta\hat{\mathbf{r}} + \sin\theta\hat{\mathbf{\theta}}\right)\cdot \mathbf{M}}
 \]
 These fields can be scatched as follows:
 
@@ -243,13 +256,66 @@ where $\hat{\mathbf{n}}$ is the normal vector to the surface of the sphere, poin
 \[\mathbf{K} = -\frac{B_0}{\mu_0}\left(\frac{3|\chi_m|}{3-|\chi_m|}\right)\hat{\mathbf{z}}\times\hat{\mathbf{r}} = -\frac{B_0}{\mu_0}\left(\frac{3|\chi_m|}{3-|\chi_m|}\right)\hat{\mathbf{\phi}}\sin\theta
 \]
 \section*{Problem 5}
+\subsection*{a.}
+using the hint given in the problem, we first calculate the elektric field within the overlap region of the two spheres. the electric field within a sphere with a uniform charge distribution can be calculated using Gauss's law as:
+\[\mathbf{E} = \frac{1}{4\pi\epsilon_0}\frac{Q}{R^3}\mathbf{r}\]
+where $Q$ is the total charge of the sphere, $R$ is the radius of the sphere and $\mathbf{r}$ is the position vector from the center of the sphere. we set our coordinate system such that the center of the positive sphere is at $(0,\frac{d}{2})$ and the center of the negative sphere is at $(0,-\frac{d}{2})$. thus the electric field of the positive and negative sphere becomes respectively:
+\[\mathbf{E}_{positive} = \frac{1}{4\pi\epsilon_0}\left(\frac{\mathbf{r}-\frac{d}{2}\hat{\mathbf{z}}}{R^3}\right)\]
+\[\mathbf{E}_{negative} = -\frac{1}{4\pi\epsilon_0}\left(\frac{\mathbf{r}+\frac{d}{2}\hat{\mathbf{z}}}{R^3}\right)\]
+using than the principle of superposition we can calculate the total electric field in the overlap region as:   
+\begin{align*}
+\mathbf{E} &= \mathbf{E}_{positive} + \mathbf{E}_{negative}\\
+&= \frac{1}{4\pi\epsilon_0}\left(\frac{\mathbf{r}-\frac{d}{2}\hat{\mathbf{z}}}{R^3}\right) - \frac{1}{4\pi\epsilon_0}\left(\frac{\mathbf{r}+\frac{d}{2}\hat{\mathbf{z}}}{R^3}\right)\\
+&= \frac{1}{4\pi\epsilon_0}\frac{Qd}{R^3}\hat{\mathbf{z}}\\
+&= \frac{1}{4\pi\epsilon_0}\frac{\mathbf{d}}{R^3}
+\end{align*}
+then using the hint given in the problem, we fill in the polarization of the spheres as $\mathbf{p} = \frac{4}{3}\pi R^3\mathbf{P}$  and so find the relation we where lookinf for:
+\[\mathbf{E} = -\frac{1}{3\epsilon_0}\mathbf{P}\]
+\subsection*{b.}
+from the relation $\mathbf{E}=\mathbf{E}_{ext}+\mathbf{E}_{self}$, and using $\mathbf{E}=\frac{1}{\chi_e \epsilon_0}\mathbf{P}$, $\mathbf{E}_{ext}=\frac{1}{N\alpha}\mathbf{P}$ and the above relation for $\mathbf{E}_{self}$ we find that:
+\[
+\frac{1}{\chi_e \epsilon_0}\mathbf{P} = \frac{1}{N\alpha} - \frac{1}{3\epsilon_0}\mathbf{P}
+\quad \Leftrightarrow \quad \frac{1}{\chi_e \epsilon_0} = \frac{1}{N\alpha} - \frac{1}{3\epsilon_0}
+\quad \Leftrightarrow \quad \boxed{\chi_e = \frac{3N\alpha}{3\epsilon_0 - N\alpha}}
+\]
 \section*{Problem 6}
 \subsection*{a.}
+beacous we are interested in de radiation field, which is the field at large distances from the source, we can use the approximation $r >> \frac{\omega}{c}$ witch only leaves the first term of the potential of the oscilating magnetic dipole:
+\[\mathbf{A}(\mathbf{r}, t) \approx -\frac{\mu_0m_0\omega\sin\theta}{4\pi c r}sin[\omega(t-\frac{r}{c})]\]
+we can thus conclude that it is the first term of the potential that dominates the radiation field.
 \subsection*{b.}
-beacause the scalair potential vanishes, we have that the electric- and magnetic field can be calculated respectively as:
+because the scalar potential vanishes, we have that the electric- and magnetic field can be calculated respectively as:
 \[\mathbf{E}=-\frac{\partial \mathbf{A}}{\partial t} \quad \mathbf{B}=\nabla\times\mathbf{A}\]
-plugging in the given vector potential we find that:
-\[
+plugging in the given vector potential we find for the electric field:
+\begin{align*}
+\mathbf{E} &= -\frac{\partial \mathbf{A}}{\partial t}\\
+&= -\frac{\mu_0 m_0 \sin\theta}{4\pi r}\left(-\frac{\omega^2}{c} \cos[\omega(t-\frac{r}{c})]-\frac{\omega}{r}\sin[\omega(t-\frac{r}{c})]\right)\hat{\mathbf{\phi}}
+\end{align*}
+and for the magnetic field we find that:
+\begin{align*}
+\mathbf{B} &= \nabla\times\mathbf{A}\\
+&= \frac{1}{r\sin\theta}\frac{\partial}{\partial\theta}(A_{\phi}\sin\theta)\hat{\mathbf{r}}-\frac{1}{r}\frac{\partial}{\partial r}(rA_{\phi})\hat{\mathbf{\theta}}\\
+&= \frac{1}{r\sin\theta}\left(\frac{\sin(2\theta)}{\sin\theta}A_{\phi}\right)\hat{\mathbf{r}}-\frac{\mu_0m_0\sin\theta}{4\pi r}\left[\left(\frac{\omega}{c}\right)^2\cos(\omega(t-\frac{r}{c}))-\frac{1}{r^2}\cos(\omega(t-\frac{r}{c}))+\frac{\omega}{rc}\sin(\omega(t-\frac{r}{c}))\right]\hat{\mathbf{\theta}}
+\end{align*}
+And again making the approximation that $r >> \frac{\omega}{c}$ so that $\frac{1}{r^2}\approx 0$ we find that the electric and magnetic field in the radiation zone can be approximated as:
+\[\mathbf{E} \approx \frac{\mu_0 m_0 \omega^2}{4\pi c }\left(\frac{\sin\theta}{r}\right) \cos[\omega(t-\frac{r}{c})]\hat{\mathbf{\phi}}\]
+\[ \mathbf{B} \approx -\frac{\mu_0 m_0 \omega^2}{4\pi c^2 }\left(\frac{\sin\theta}{r}\right) \cos[\omega(t-\frac{r}{c})]\hat{\mathbf{\theta}}\]   
 \subsection*{c.}
-
+the Poynting vector is deffined as:
+\[
+\mathbf{S} = \frac{1}{\mu_0}\mathbf{E}\times\mathbf{B}
+\]
+plugging in the approximated electric and magnetic field we find:
+\begin{align*}
+\mathbf{S} &= \frac{1}{\mu_0}\mathbf{E}\times\mathbf{B}\\
+&= \frac{1}{\mu_0}\frac{\mu_0^2 m_0^2 \omega^4}{16\pi^2 c^3 }\left(\frac{\sin^2\theta}{r^2}\right) \cos^2[\omega(t-\frac{r}{c})]\hat{\mathbf{r}}\\
+&= \frac{\mu_0 m_0^2 \omega^4}{16\pi^2 c^3 }\left(\frac{\sin^2\theta}{r^2}\right) \cos^2[\omega(t-\frac{r}{c})]\hat{\mathbf{r}}
+\end{align*}
+we see that the Poynting vector is pointing in the radial direction. the intensity of the radiation can be calculated as the time average of the magnitude of the Poynting vector:
+\begin{align*}
+    \langle \mathbf{S} \rangle &= \frac{\mu_0 m_0^2 \omega^4}{16\pi^2 c^3 }\left(\frac{\sin^2\theta}{r^2}\right) \langle\cos^2[\omega(t-\frac{r}{c})]\rangle\hat{\mathbf{r}}\\
+    &= \frac{\mu_0 m_0^2 \omega^4}{16\pi^2 c^3 }\left(\frac{\sin^2\theta}{r^2}\right) \frac{1}{2}\hat{\mathbf{r}}\\
+    &= \frac{\mu_0 m_0^2 \omega^4}{32\pi^2 c^3 }\left(\frac{\sin^2\theta}{r^2}\right)\hat{\mathbf{r}}
+\end{align*}
+and thus we find that the intensity of the radiation is given by:
 \end{document}
