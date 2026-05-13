@@ -124,17 +124,17 @@ Because the quadrupole moment is symmetric, we find that the quadrupole moment o
 \end{figure}
 \subsection*{a.}
 \textbf{Electric field}\\
-Per definition of the potential difference we have that:
+By definition of the potential difference we have that:
 \[
 V(d)-V(0)=-\int^d_0 \mathbf{E}\cdot d\mathbf{l}
 \]
 where $V(0)$ is the potential at the positive plate and $V(d)$ is the potential at the negative plate. Because the electric field is uniform between the plates, we can write that:
 \[
-V=V(d)-V(0)=-E\int^d_0 dl=-Ed
+-V=V(d)-V(0)=-E\int^d_0 dl=-Ed
 \] 
 Than looking at the circuit, we see that the electric field is pointing in the x-direction and thus we can write that:
 \[
-\mathbf{E}=-\frac{V}{d}\hat{\mathbf{x}}
+\mathbf{E}=\frac{V}{d}\hat{\mathbf{x}}
 \]
 \textbf{Polarization}\\
 via the relation between the electric field and the polarization:
@@ -143,7 +143,7 @@ via the relation between the electric field and the polarization:
 \]
 we find that the polarization can be written in terms of the potential as:
 \[
-\mathbf{P}=-\epsilon_0\left(\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\hat{\mathbf{x}}
+\mathbf{P}=\epsilon_0\left(\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\hat{\mathbf{x}}
 \]   
 \textbf{Displacement field}\\
 Again via the relation between the electric field, the polarization and the displacement field:
@@ -152,7 +152,7 @@ Again via the relation between the electric field, the polarization and the disp
 \]
 We find that the displacement field can be written in terms of the potential as:
 \[
-\mathbf{D}=-\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\hat{\mathbf{x}}
+\mathbf{D}=\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\hat{\mathbf{x}}
 \]
 \subsection*{b.}
 \textbf{Free charge}\\
@@ -167,20 +167,20 @@ In the section about boundary conditions (section 4.3.3 edition 4 of Griffiths) 
 \]
 For the positive plate, we only have an $D_{above}^{\perp}$ component, because the electric field is zero outside the plates. We also have that the displacement field is already perpendicular to the surface of the plate, thus we can write that:
 \[
-\sigma_f(\text{positive plate}) = D_{above}^{\perp}=-\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}
+\sigma_f(\text{positive plate}) = D_{above}^{\perp}=\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}
 \]
 For the negative plate, we only have a $D_{below}^{\perp}$ component, again because the electric field is zero outside the plates. We also have that the displacement field is already perpendicular to the surface of the plate, thus we can write that:
 \[
-\sigma_f(\text{negative plate}) = -D_{below}^{\perp}=\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}
+\sigma_f(\text{negative plate}) = -D_{below}^{\perp}=-\epsilon_0\left(1+\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}
 \]
 \textbf{Bound charge}\\
 The bound charge surface density is defined as:
 \[
 \sigma_b = \mathbf{P}\cdot\hat{\mathbf{n}}
 \]
-Where $\hat{\mathbf{n}}$ is the normal vector to the surface of the plate, pointing outwards. For the positive plate, we have that $\hat{\mathbf{n}}=\hat{\mathbf{x}}$, thus we can write that:
+Where $\hat{\mathbf{n}}$ is the normal vector to the surface of the dielectric material, pointing outwards. For the positive plate, we have that $\hat{\mathbf{n}}=-\hat{\mathbf{x}}$, thus we can write that:
 \[\sigma_b(\text{positive plate}) = \mathbf{P}\cdot\hat{\mathbf{n}}=-\epsilon_0\left(\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\]
-For the negative plate, we have that $\hat{\mathbf{n}}=-\hat{\mathbf{x}}$, thus we can write that:
+For the negative plate, we have that $\hat{\mathbf{n}}=\hat{\mathbf{x}}$, thus we can write that:
 \[\sigma_b(\text{negative plate}) = \mathbf{P}\cdot\hat{\mathbf{n}}=\epsilon_0\left(\chi_1+\chi_3\frac{V^2}{d^2}\right)\frac{V}{d}\]
 
 \section*{Problem 4}
