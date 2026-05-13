@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1778603010.44419 "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" "Homework Assignment 4 Diederik Desmet.pdf" "Homework Assignment 4 Diederik Desmet" 1778603012.04196 0
+["pdflatex"] 1778671284.73874 "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" "Homework Assignment 4 Diederik Desmet.pdf" "Homework Assignment 4 Diederik Desmet" 1778671286.89349 0
   "/etc/texmf/web2c/texmf.cnf" 1772920948.20854 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" 1778603011.13398 17466 4f1d71185faf69ab79e47dec63a4fe0c ""
+  "/home/diederik/LATEX/REM hw4/Homework Assignment 4 Diederik Desmet.tex" 1778671283.41642 17462 2073a9dd6934c760dcf43d7d8f201dbf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -102,10 +102,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1777635263.82346 5315274 eca45f79c283d0da8e1220b205549efb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1777635281 7424620 4bfd873debaa928ad2bd80b691ec7952 ""
   "H-veld.png" 1778421279.38637 240665 60a0aef7d86be4a023f648f131c8b9a3 ""
-  "Homework Assignment 4 Diederik Desmet.aux" 1778603011.92045 1084 168fd301c250e48d14b51dddcb3a5ac8 "pdflatex"
-  "Homework Assignment 4 Diederik Desmet.out" 1778603010.96125 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Homework Assignment 4 Diederik Desmet.tex" 1778603011.13398 17466 4f1d71185faf69ab79e47dec63a4fe0c ""
-  "intensiteit.pdf" 1778603006.56678 2310 9bec2a297496b2ccb963b9f0c5623e53 ""
+  "Homework Assignment 4 Diederik Desmet.aux" 1778671286.72461 1084 168fd301c250e48d14b51dddcb3a5ac8 "pdflatex"
+  "Homework Assignment 4 Diederik Desmet.out" 1778671285.32406 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Homework Assignment 4 Diederik Desmet.tex" 1778671283.41642 17462 2073a9dd6934c760dcf43d7d8f201dbf ""
+  "hoekafh.png" 1778671277.74254 726118 3147ffdd54fd9f0ce559d63d1cc4b9e9 ""
   "magnetisatie.png" 1778421215.1473 152231 dd6bf1f391bc5dbc61d6f4186966a19c ""
   "magnetisch-veld.png" 1778421321.24364 431726 1d3ca61aa29520536c1e92782512a1cf ""
   "schakeling.png" 1777816359.69924 8970 ac0bf7e6f0a1d1f2a0f352cf5799a1c5 ""
