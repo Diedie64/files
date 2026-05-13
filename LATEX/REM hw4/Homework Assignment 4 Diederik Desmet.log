@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.1)  12 MAY 2026 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.1)  13 MAY 2026 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,17 +403,17 @@ Overfull \hbox (44.67116pt too wide) detected at line 299
 []
  []
 
-<intensiteit.pdf, id=79, 10.0375pt x 10.0375pt>
-File: intensiteit.pdf Graphic file (type pdf)
-<use intensiteit.pdf>
-Package pdftex.def Info: intensiteit.pdf  used on input line 323.
-(pdftex.def)             Requested size: 221.32687pt x 221.46387pt.
+<hoekafh.png, id=79, 548.0475pt x 414.79968pt>
+File: hoekafh.png Graphic file (type png)
+<use hoekafh.png>
+Package pdftex.def Info: hoekafh.png  used on input line 323.
+(pdftex.def)             Requested size: 221.32687pt x 167.51825pt.
 [8] [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.327 \end{document}
-                     <./intensiteit.pdf>] (./Homework Assignment 4 Diederik Desmet.aux)
+                     <./hoekafh.png>] (./Homework Assignment 4 Diederik Desmet.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -423,17 +423,17 @@ Package rerunfilecheck Info: File `"Homework Assignment 4 Diederik Desmet".out' 
  ) 
 Here is how much of TeX's memory you used:
  10846 strings out of 475582
- 168377 string characters out of 5778247
+ 168325 string characters out of 5778247
  1944975 words of memory out of 5000000
  32715 multiletter control sequences out of 15000+600000
  566402 words of font info for 67 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  75i,12n,79p,476b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Homework Assignment 4 Diederik Desmet.pdf" (9 pages, 1069074 bytes).
+Output written on "Homework Assignment 4 Diederik Desmet.pdf" (9 pages, 1813798 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 156 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
